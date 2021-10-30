@@ -22,11 +22,18 @@ export default function User() {
                 strong > Idade < /strong >  <
                 p > { user.idade } < /p >  <
                 strong > Empresa < /strong >  <
-                p > { user.empresa } < /p >  < /
+                p > { user.empresa } < /p > 
+
+                <
+                div className = "actions" > <
+                button className = "button"
+                type = "submit" > Deletar < /button> <
+                button className = "button"
+                type = "submit" > Acessar < /button>  < /
+                div > < /
                 li >
             ))
         } < /
-        ul > < /
-        div >
+        ul > < /div >
     );
 }
